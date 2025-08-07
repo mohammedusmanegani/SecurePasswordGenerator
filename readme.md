@@ -20,13 +20,17 @@ A fast, privacy-respecting password generator built entirely with client-side co
 
 ## 🔍 Why This Exists
 
+In recent times, there have been **multiple data breaches** where users' sensitive information — including generated passwords — may have been compromised.
+
 As a developer, I analyzed several online password generators and noticed the following disturbing patterns:
 
 - ❗ Network requests to external servers during or after password generation
 - ❗ Hidden API calls or analytics scripts
-- ❗ Possibility of password values being logged without user consent
+- ❗ Possibility of password values being tracked, logged, or intercepted without user consent
 
 These are **critical security and privacy risks**. Your passwords must remain confidential — always.
+
+After personally noticing some password generator sites making **API calls after generation**, I decided to build **my own secure password generator** that puts **privacy first**.
 
 ### ✅ My Promise
 
